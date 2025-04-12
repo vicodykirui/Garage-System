@@ -169,6 +169,7 @@ $upcoming_service_result = $conn->query($upcoming_service_sql);
             </div>
         </div>
 
+
         <div class="col-md-6">
             <div class="card shadow-sm p-3">
                 <h4 class="text-danger">🎁 Upcoming Services & Special Offers</h4>
@@ -188,6 +189,14 @@ $upcoming_service_result = $conn->query($upcoming_service_sql);
             </div>
         </div>
     </div>
+    <div class="row mb-4">
+    <div class="col-12 text-center">
+        <a href="book_service.html" class="btn btn-primary btn-lg">
+            📅 Book a New Service
+        </a>
+    </div>
+</div>
+
 </div>
 
 </body>

@@ -25,7 +25,7 @@ $bookings_data = $bookings_result->fetch_assoc();
 
 // Fetch service history
 $service_history_query = "SELECT * FROM service_bookings ORDER BY booking_date DESC";
-$service_history_result = $aconn->query($service_history_query);
+$service_history_result = $conn->query($service_history_query);
 
 // Fetch payment history
 $payment_history_query = "SELECT * FROM payment_history ORDER BY payment_date DESC";
